@@ -9,4 +9,5 @@ export const storageAccount = new azure_native.storage.StorageAccount("staticweb
         name: azure_native.storage.SkuName.Standard_ZRS
     },
     kind: azure_native.storage.Kind.StorageV2,
+    enableHttpsTrafficOnly: true
 });
