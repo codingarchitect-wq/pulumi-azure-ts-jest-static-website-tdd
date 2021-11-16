@@ -9,5 +9,9 @@
     "dependencies": {
         "@pulumi/azure-native": "^1.0.0",
         "@pulumi/pulumi": "^3.0.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "unit-tests": "jest"
     }
 }
