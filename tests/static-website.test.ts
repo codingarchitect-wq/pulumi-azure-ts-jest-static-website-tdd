@@ -18,6 +18,9 @@ describe("When provisioning a static website", () => {
     beforeAll(async function() {
         // It's important to import the program _after_ the mocks are defined.
         infra = await import("../index");
-    })
+    });
 
+    it("A storage account should be created", () => {
+        expect(infra.storageAccount).toBeDefined();
+    });
 });
