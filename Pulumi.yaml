@@ -1,0 +1,3 @@
+name: pulumi-azure-ts-jest-static-website-tdd
+runtime: nodejs
+description: A minimal Azure Native TypeScript Pulumi program
