@@ -33,4 +33,8 @@ describe("When provisioning a static website", () => {
             }
         });            
     });
+
+    it("A Storage Account Static Website should be created", () => {
+        expect(infra.staticWebsite).toBeDefined();
+    });
 });
